@@ -5,6 +5,4 @@ class Gain:
         self.description = description
         self.value = value
         self.date = date
-        self.type = type
-        self.form = form
         pass
