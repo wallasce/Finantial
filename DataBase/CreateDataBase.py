@@ -12,6 +12,8 @@ class CreateDataBase:
             comand += value[0] + ' ' + value[1] + ','
         comand += ');'
 
+        self.cur.execute(comand)
+
     # Close the cursor.
     def removeCursos(self) -> None:
         self.cur.close
